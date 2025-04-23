@@ -1,0 +1,141 @@
+2025-04-23 21:04:06,656 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:05:48,731 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:06:47,369 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:06:47,370 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:06:47,370 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:11:40,885 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:14:02,426 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:14:02,426 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:14:02,429 - root - ERROR - Unexpected error sending to saad.221244.co@mhssce.ac.in: 'ApiClient' object does not support the context manager protocol
+2025-04-23 21:14:15,895 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:26:22,620 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:57:03,202 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 21:59:52,466 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:02:19,004 - root - ERROR - Unexpected error sending alert to darthvader032005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:32:06 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '54f3c11d-2452-9d52-ae25-02f4ebee334e', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ec14a480ffeb5-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:02:19,721 - root - ERROR - Unexpected error sending alert to darthvader032005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:32:07 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '30ac3f5f-7e00-969d-a0f1-941f7df76009', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '1', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ec14ede8cfff3-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:09:50,264 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:14:53,637 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:16:02,137 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:50 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '0452eb03-0c1d-97d8-af80-7bfd104f7cdd', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed5634b9efea0-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:02,803 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:50 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': 'cf0b50e5-c931-9609-a423-74c7b7e32c77', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed5678caef5df-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:03,463 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:51 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '689912a0-c639-99ef-ab1e-e5c2b6c29920', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed56b9d24ffff-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:04,320 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:52 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '2eff1334-9ff2-9cc8-b218-4286a56c42a9', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '6', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed570fd66f5d7-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:04,966 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:52 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '44288aa0-d7b9-90d8-b03d-b9de59bdf177', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed574eb66fb81-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:05,682 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:53 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '6b889efa-0320-94fd-a293-61301b49c116', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed5796ea9fb9d-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:06,400 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:54 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': 'bd537e9a-7e53-947c-8d1e-6e36016dc10d', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '4', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed57df9dcfeac-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:16:07,218 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:45:54 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '38bd7dd2-cdc1-99e6-9ca6-92650ec11b17', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934ed581f9a0f5e4-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:19:40,621 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:49:28 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '6215fd9f-473a-9a91-b8d9-d5b50fe2c991', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edab84b980d28-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:19:41,451 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:49:29 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '25ec65f7-ee15-990a-9419-f4833896db62', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edabd5f4afffd-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:19:42,156 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:49:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '016c52e4-37e0-9aaa-9a48-6a8c7511a92c', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edac25b5cfb8f-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:19:43,187 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:49:30 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '5bb71157-815e-947c-b942-e37d7ed15aa1', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edac838ddfea8-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:19:59,046 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:22:50,279 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': 'e05fe0b9-f359-91f1-9e81-bc5558ab4fef', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '5', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf5a0c5dfba3-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:22:51,188 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:38 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '76c84538-8a06-9950-8d2d-32197bae5529', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf5f6b3efb83-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:22:52,212 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:39 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': 'a6b0f0f0-6600-9f19-84e4-84e980fd7ce8', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '3', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf65a84ff5f3-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:22:53,135 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:40 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '39cb91b9-7f01-9554-a5df-9b126d9cd83f', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '4', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf6bfd3ffff2-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:22:53,926 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:41 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': '74b9985c-7a9b-9541-9e3d-e3124c1099de', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '1', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf708f3dfffd-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:22:54,772 - root - ERROR - Failed to send alert to darthvader03005@gmail.com: (401)
+Reason: Unauthorized
+HTTP response headers: HTTPHeaderDict({'Date': 'Wed, 23 Apr 2025 16:52:42 GMT', 'Content-Type': 'application/json', 'Content-Length': '50', 'Connection': 'keep-alive', 'access-control-allow-credentials': 'true', 'sib-request-id': 'f9c6a792-5d9f-91ae-a8dc-7eba52cd4cca', 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': 'PUT, POST, GET, DELETE, PATCH, OPTIONS', 'x-envoy-upstream-service-time': '6', 'cf-cache-status': 'DYNAMIC', 'Server': 'cloudflare', 'CF-RAY': '934edf763fa9febb-AMS'})
+HTTP response body: {"message":"Key not found","code":"unauthorized"}
+
+
+2025-04-23 22:25:18,733 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:35:22,104 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:40:24,043 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:40:35,761 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-23 22:45:53,075 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.

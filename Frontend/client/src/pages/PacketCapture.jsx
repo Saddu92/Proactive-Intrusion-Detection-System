@@ -11,8 +11,8 @@ import {
   Pie,
   Cell,
 } from "recharts";
-import{ toast} from "sonner";
- 
+import { toast } from "sonner";
+
 function PacketCapture() {
   const [loading, setLoading] = useState(false);
   const [predictions, setPredictions] = useState([]);
@@ -20,21 +20,19 @@ function PacketCapture() {
   const [packetData, setPacketData] = useState([]);
   const [email, setEmail] = useState("");
   const [emailRegistered, setEmailRegistered] = useState(false);
+  const [blockingIp, setBlockingIp] = useState(false);
 
   const startCapture = async () => {
     setLoading(true);
     setAlert("");
 
     try {
-     
       const requestData = emailRegistered ? { email } : {};
       const response = await axios.post(
         "http://127.0.0.1:8000/start-capture-and-predict/",
         requestData
       );
-      
 
-      // Keep all your existing response handling
       setPredictions(response.data.predictions);
       setPacketData(response.data.packet_data);
 
@@ -42,17 +40,31 @@ function PacketCapture() {
         setAlert("🚨 Suspicious Network Activity Detected!");
       }
 
-      if (response.data.http_alerts_sent) {
+      if (response.data.http_alerts.email_sent) {
         toast.info("Security alerts will be sent to your email");
       }
     } catch (error) {
       console.error("Error:", error);
-      if(emailRegistered===false){
-        toast.error("Please Enter the email for Security Threat Updates");
+      if (emailRegistered === false) {
+        toast.error("Please enter the email for Security Threat Updates");
       }
-      // toast.error("Failed to start packet capture");
     } finally {
       setLoading(false);
+    }
+  };
+
+  const blockMaliciousIp = async (ip) => {
+    if (!ip) return;
+    
+    setBlockingIp(true);
+    try {
+      await axios.post("http://127.0.0.1:8000/block-ip/", { ip });
+      toast.success(`Successfully blocked IP: ${ip}`);
+    } catch (error) {
+      console.error("Error blocking IP:", error);
+      toast.error(`Failed to block IP: ${ip}`);
+    } finally {
+      setBlockingIp(false);
     }
   };
 
@@ -61,16 +73,19 @@ function PacketCapture() {
     id: index + 1,
     status: val ? "Threat" : "Normal",
   }));
+  
   const pieData = [
     { name: "Normal", value: predictions.filter((p) => p === 0).length },
     { name: "Threat", value: predictions.filter((p) => p === 1).length },
   ];
+  
   const colors = ["#34D399", "#F87171"]; // Green for Normal, Red for Threat
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-8">
       <h1 className="text-3xl font-bold">Proactive Firewall Dashboard</h1>
       {alert && <div className="bg-red-500 p-2 rounded mt-3">{alert}</div>}
+      
       <button
         onClick={startCapture}
         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-5"
@@ -78,8 +93,7 @@ function PacketCapture() {
       >
         {loading ? "Capturing..." : "Start Packet Capture"}
       </button>
-      // Add this component right after your alert display and before the
-      capture button
+      
       {!emailRegistered && (
         <div className="w-full max-w-md bg-gray-800 p-4 rounded-lg mt-4 mb-4">
           <h3 className="text-lg font-semibold mb-2">Get Security Alerts</h3>
@@ -111,6 +125,7 @@ function PacketCapture() {
           </div>
         </div>
       )}
+      
       {predictions.length > 0 && (
         <div className="w-full flex flex-col items-center mt-6">
           <div className="w-full flex justify-between">
@@ -159,11 +174,17 @@ function PacketCapture() {
                     <th className="px-4 py-2">Destination Port</th>
                     <th className="px-4 py-2">Packet Length</th>
                     <th className="px-4 py-2">Prediction</th>
+                    <th className="px-4 py-2">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {packetData.map((packet, index) => (
-                    <tr key={index} className="border-b border-gray-700">
+                    <tr 
+                      key={index} 
+                      className={`border-b border-gray-700 ${
+                        predictions[index] === 1 ? "bg-red-900/30" : ""
+                      }`}
+                    >
                       <td className="px-4 py-2">{index + 1}</td>
                       <td className="px-4 py-2">{packet["Source IP"]}</td>
                       <td className="px-4 py-2">{packet["Destination IP"]}</td>
@@ -183,6 +204,17 @@ function PacketCapture() {
                         >
                           {predictions[index] === 1 ? "Threat" : "Normal"}
                         </span>
+                      </td>
+                      <td className="px-4 py-2">
+                        {predictions[index] === 1 && (
+                          <button
+                            onClick={() => blockMaliciousIp(packet["Source IP"])}
+                            disabled={blockingIp}
+                            className="bg-red-600 hover:bg-red-700 text-white px-3 py-1 rounded text-sm"
+                          >
+                            {blockingIp ? "Blocking..." : "Block IP"}
+                          </button>
+                        )}
                       </td>
                     </tr>
                   ))}
